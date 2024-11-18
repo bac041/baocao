@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gap {
+    height: 40px;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 8px;
+    background-color:#c30005;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #9C0004;
+}
+
+/* header */
+
+.header {
+    height: 133px;
+    width: 100%;
+    background-color: #353535;
+}
+
+.header-top {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+.header-top-content {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.login { 
+    padding: 5px 0;
+}
+
+.header-text {
+    color:#ffffffcc;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header-text:hover {
+    color: white ;
+}
+
+.logo-img {
+    height: 60px;
+    width: 150px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-img {
+    margin-left: 8px;
+}
+
+.header-menu {
+    height: 53px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.menu {
+	
+    height: 100%;
+    width: 600px;
+    margin: auto;
+    background-color: #dcdcdc;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+}
+
+.menu ul li {
+    height: 53px;
+    padding: 15px 0px 10px 0px;
+}
+
+.menu ul li:hover {
+    border-bottom: solid 3px #c30005;
+}
+
+.active {
+    border-bottom: solid 3px #c30005;
+}
+
+.menu ul li a {
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+}
+/*Danh muc*/
+ul.menu_danhmuc {
+    z-index: 1;
+}
+
+ul.menu li > .menu_danhmuc {
+    display: none;
+    list-style:none;
+    background-color: #DBDBDB;
+    margin-top: 18px;
+    /* padding: 0 10px; */
+}
+ul.menu li > .menu_danhmuc a {
+    color: #000;
+    text-decoration: none;
+}
+ul.menu li > .menu_danhmuc li:hover a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ul.menu li > .menu_danhmuc li {
+    padding: 10px 10px 0px 10px ;
+    text-align: left;
+    margin: 0;
+}
+
+ul.menu li:hover .menu_danhmuc {
+    display: block;
+    position: absolute;
+}

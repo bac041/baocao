@@ -1,0 +1,205 @@
+.tt-main {
+	height: 810px;
+	width: 1200px;
+	margin: auto;
+    padding-top: 20px;
+}
+
+.title {
+    /* height: 50px; */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.tt-col1 {
+	height: 730px;
+	width: 360px;
+	padding: 0px 30px 30px 0px;
+	float: left;
+	border-right: 1px solid #ececec;
+}
+
+.ttcol1-search {
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+
+
+.ttcol1-post {
+	height: 430px;
+}
+
+.post-title {
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.post-title h3 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.6;
+	text-transform: uppercase; 
+	letter-spacing: 1.5px; 
+	color: #1c1c1c;
+}
+
+.post-menu {
+	background-color: rgba(221, 221, 221, 0.1);
+	height: 350px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	padding: 15px;
+	list-style: none;
+	
+}
+
+.post-menu li {
+	height: 65px;
+	padding: 10px 0px;
+}
+
+.post-menu li .post-box {
+	height: 45px;
+}
+
+.post-img {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+.post-text {
+	width: 210px;
+	height: 90px;
+	float: left;
+	margin-left: 12px;
+}
+
+.post-text a {
+	color: #444444;
+	font-size: 13px;
+}
+
+.border-top {
+	border-top: 1px dashed #ececec;
+}
+
+
+.tt-col2 {
+	height: 730px;
+	width: 840px;
+	padding: 0px 30px 30px;
+	float: left;
+}
+
+.ttcol2-main {
+	height: 100%;
+	width: 825px;
+	margin: 0px -15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.ttcol2-block {
+	height: 350px;
+	width: 275px;
+	float: left;
+	padding: 0px 15px 30px 15px; 
+}
+
+
+.ttcol2-block-main {
+	width:  245px;
+	height: 100%;
+	cursor: pointer;
+    position: relative;
+	box-shadow: 0 1px 3px -2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ttcol2-block-main:hover .ttblock-content {
+	box-shadow: 0 3px 3px 4px rgba(0,0,0,0.12);
+}
+
+.ttblock-img {
+	height: 150px;
+	width: 245px;
+}
+
+.ttblock-img img {
+    height: 150px;
+	width: 245px;
+}
+
+.ttblock-box {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	position: absolute; 
+    top: 20px;
+	left: -8px;
+	border: 1px solid #c30005;
+	color: #c30005;
+	text-align: center;
+	padding-top:7px; 
+	border-radius: 50%;
+}
+
+.box-date {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.ttcol2-block-main:hover .ttblock-box {
+	background-color: #9C0004;
+	color: white;
+}
+
+
+
+.ttblock-content {
+	height: 170px;
+	width: 245px;
+	padding: 15px 20px;
+}
+
+.ttblock-title {
+	height: 50px;
+}
+
+.ttblock-title h5 {
+	font-size: 18px;
+	line-height: 1.3;
+	color: #1c1c1c;
+}
+
+.divider {
+    margin: 8px 0;
+    height: 2px;
+    width:30px;
+    background-color: #c30005;
+}
+
+
+.ttblock-text {
+	height: 65px;
+	font-size: 17px;
+	text-align: justify;
+	color: #666666;
+}
+span {
+    white-space: pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* số dòng hiển thị */
+  -webkit-box-orient: vertical;
+  max-height: 3.6em; /* chiều cao tối đa của 2 dòng */
+  line-height: 1.2em; /* khoảng cách giữa các dòng */
+	
+  
+}
